@@ -14,6 +14,8 @@ public class CartTest {
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup() {
+        String path = System.getProperty("user.dir");
+        System.setProperty("webdriver.chrome.driver", path + "\\src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
