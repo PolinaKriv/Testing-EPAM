@@ -5,7 +5,9 @@
 *.iml
 *.iws
 log/
+*.log
 target/
+test-output/
 *.class
 bin/
 build/
